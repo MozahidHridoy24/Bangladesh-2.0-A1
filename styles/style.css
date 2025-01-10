@@ -3,6 +3,7 @@
 
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 /* nav styles */
 nav{
@@ -138,4 +139,70 @@ nav{
     background-color:#FFC239;
     border: none;
     color: #FFFFFF;
+}
+
+/* Recent news section style */
+
+.news-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 10px solid rgb(237, 221, 221);
+    background: #e8e2e2;
+    border-radius: 10px;
+}
+.news-reverse{
+    flex-direction: row-reverse;
+}
+.recent-news{
+    margin: 30px 150px;
+}
+.recent-news-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: #0E0E0E;
+}
+.recent-news-desc{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #0E0E0EB3;
+    margin-bottom: 20px;
+}
+.news-img{
+    border-radius: 10px;
+    margin: 30px;
+    margin-right: 50px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    color: #0E0E0ECC;
+}
+.news-date, .news-time{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #0E0E0EB3;
+    margin-right: 20px;
+
+}
+.news-desc{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #0E0E0EB3;
+}
+.news-btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    color: #FFFFFF;
+    margin: 32px 0px;
+    border-radius: 8px;
+    padding: 8px 14px 11px 20px;
+    border: none;
+
 }
