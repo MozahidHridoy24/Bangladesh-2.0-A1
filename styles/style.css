@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* nav styles */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px 130px 20px 125px;
+    background-color: #F5F5F5;
+}
+.nav-title{
+    color:  #0E0E0E;
+    text-align: left;
+}
+
+/* banner styles */
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50;
+    padding: 60px 80px 60px 80px;
+    background-color: #C6E4D6;
+    width: 1200px;
+    height: 480px;
+    margin:30px auto;
+    border-radius: 10px;  
+}
+.banner-title{
+    color: #0E0E0E80;
+    font-weight: 500;
+    margin: 16 auto;
+    font-size: 20px;
+}
+.banner-sub-title{
+    color: #0E0E0E;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    width: 475px;
+}
+.banner-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    margin: 0px 36px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 17px 34px 17px 34px;
+}
