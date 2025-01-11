@@ -6,6 +6,9 @@
     
 }
 /* nav styles */
+.main-background{
+    background-color: #F5F5F5;
+}
 nav{
     display:flex;
     justify-content: space-between;
@@ -28,9 +31,7 @@ nav{
     gap: 50;
     padding: 60px 80px 60px 80px;
     background-color: #C6E4D6;
-    width: 1200px;
-    height: 480px;
-    margin:30px auto;
+    margin:0 150px;
     border-radius: 10px;  
 }
 .banner-title{
@@ -60,9 +61,8 @@ nav{
 /* vision section styles */
 .Future-vision{
     
-    margin:30px auto;
-    width: 1350px;
-    height: 480px;
+    margin:0 150px;
+    
 }
 .vision-container{
     display: flex;
@@ -147,8 +147,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 10px solid rgb(237, 221, 221);
-    background: #e8e2e2;
+    background: #ffffff;
     border-radius: 10px;
 }
 .news-reverse{
@@ -174,12 +173,14 @@ nav{
     border-radius: 10px;
     margin: 30px;
     margin-right: 50px;
+    background: #ffffff;
 }
 .news-title{
     font-size: 32px;
     font-weight: 700;
     text-align: left;
     color: #0E0E0ECC;
+    background: #ffffff;
 }
 .news-date, .news-time{
     font-size: 16px;
@@ -187,6 +188,7 @@ nav{
     text-align: left;
     color: #0E0E0EB3;
     margin-right: 20px;
+    background: #ffffff;
 
 }
 .news-desc{
@@ -194,6 +196,7 @@ nav{
     font-weight: 400;
     text-align: left;
     color: #0E0E0EB3;
+    background: #ffffff;
 }
 .news-btn{
     font-size: 18px;
@@ -205,4 +208,39 @@ nav{
     padding: 8px 14px 11px 20px;
     border: none;
 
+}
+.news{
+    background: #ffffff;
+    margin: 30px;
+}
+.news-icon{
+    background: #ffffff;
+    
+}
+/* Donate section style */
+.donate{
+    margin: 0 150px;
+}
+.donate-amount{
+    display: flex;
+    justify-content: space-around;
+    gap: 20;
+    align-items: center;
+    margin: 0 100px;
+}
+.donate-btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    color: #FFFFFF;
+    margin: 40px 500px;
+    border-radius: 8px;
+    padding: 8px 14px 11px 20px;
+    border: none;
+}
+.donate-amount-bg{
+    background: #FFFFFF;
+    margin: 30px;
+    padding: 30px 50px;
+    border-radius: 10px;
 }
